@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rascvet</title>
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.workers-items').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next'),
+            });
+        });
+    </script>
+    <link rel="icon" type="image/png" sizes="16x16" href="pics/logo_list.png">
+</head>
+<body id="top">
+
+<a href="#top" class="btn-up"></a>
+    
+<div class="menu container">
+            <div class="menu-items">
+                <div class="menu-item"><a href='#home'>о нас</a></div>
+                <div class="menu-item"><a href='#sob'>события</a></div>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item"><a href='#workers'>сотрудники</a></div>
+                <div class="menu-item"><a href='#review'>отзывы</a></div>
+            </div>
+</div>
+    
+<div class="main container">
+    <div class="presentation-img"><img src="pics/logo-04.svg"></div>
+    <div class="presentation-title">Санаторий для растений</div>
+    <div class="presentation-text">«Расцвет» - это место, где растения <br> могут отдохнуть, набраться сил <br> и поправить здоровье.</div>
+    <div class="presentation-button">
+        <a href="#feedback">записаться</a>
+    </div>
+</div>
+
+    <div class="home" id="home">
+        <div class="container">
+            <div class="title">процедурный домик</div>
+            <div class="home-desc">Здесь есть всё необходимое <br> оборудование для Вашего здоровья, <br>
+            спокойствия и расслабления.</div>
+            <div class="home-pics">
+                <div class="pic1"><img src='pics/out3 1.jpg'></div>
+                <div class="pic2"><img src='pics/out4 2.jpg'></div>
+            </div>
+            <div class="home-button">
+                <a href='#feedback'>запись на процедуры</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="foto container" id="sob">
+        <div class="title">концентрация <br>
+            фотосинтеза</div>
+        <div class="foto-desc">Почувствуй каждый стебелек, познай гармонию вершков и корешков!<br>
+            Сеансы концентрированного фотосинтеза<br> на закате помогут почувствовать баланс <br>
+            и привести тело в тонус.</div>
+        <div class="foto-time">
+            <div class="foto-time-days">
+                <div class="day1">среда</div>
+                <div class="day">пятница</div>
+            </div>
+            <div class="foto-time-time">17:30</div>
+        </div>
+        <div class="foto-button">
+            <a href='#feedback'>вступить в группу</a>
+        </div>
+
+    </div>
+
+    <div class="prozilki">
+        <div class="container">
+            <div class="title">по прожилкам</div>
+            <div class="prozilki-desc">Квест для ростков, на котором каждый <br>
+                маленький цветочек почувствует себя <br>
+                настоящим героем! <br>
+                Призы получат все участники.</div>
+                <div class="prozilki-button">  
+                <a href='#feedback'>регистрация</a>
+                </div>
+                <div class="prozilki-date">14 ноября</div>
+                <div class="prozilki-date time">16:00</div>
+                <div class="prozilki-foto"><img src="pics/sec1ond.jpg"></div>
+
+        </div>
+    </div>
+
+    <div class="curs container">
+        <div class="title">ускоренный</div>
+        <div class="curs-header">
+            <div class="curs-pic"><img src="pics/c.png" width="310px" height="485px"></div>
+            <div class="curs-pic"><img src="pics/u.png" width="322px" height="475px"></div>
+            <div class="curs-pic"><img src="pics/r.png" width="309px" height="487px"></div>
+            <div class="curs-pic"><img src="pics/s.png" width="455px" height="584px"></div>
+        </div>
+        <div class="curs-desc">Ускоренный курс процедур позволит Вам <br> подтянуть здоровье в короткий срок.<br> Времени и денег требуется меньше, <br> 
+            а результат гарантирован!</div>
+        <div class="curs-list-head">Курс длится 5 дней, за это время вы:</div>
+        <div class="curs-list">
+            <div class="curs-list-item">получите консультацию у лучших специалистов</div>
+            <div class="curs-list-item">ежедневно будете посещать назначенные процедуры</div>
+            <div class="curs-list-item">наладите режим отдыха и питания</div>
+            <div class="curs-list-item">почувствуете себя лучше!</div>
+        </div>
+        <div class="curs-button">
+            <a href='#feedback'>запись на процедуры</a>
+        </div>
+    </div>
+
+    <div class="workers" id="workers">
+        <div class="container">
+            <div class="title">сотрудники</div>
+            <div class="workers-items">
+                <div class="workers-item">
+                    <div class="worker-pic"><img src="pics/xlopok.jpg" height="419px"></div>
+                    <div class="worker-descs">
+                        <div class="worker-name">Хлопчатник</div>
+                        <div class="worker-desc">Искусный массажист с нежными, 
+                            но уверенными листьями. </div>
+                        <div class="worker-desc-list">
+                            <div class="worker-desc-list-item">Глубокая релаксация листьев и стеблей</div>
+                            <div class="worker-desc-list-item">Терапия для улучшения фотосинтеза</div>
+                            <div class="worker-desc-list-item1">Ароматерапия эфирными маслами 
+                                (только натуральные солнечные 
+                                лучи и роса!) </div>
+                        </div>
+                    </div>       
+                </div>
+                <div class="workers-item">
+                    <div class="worker-pic"><img src="pics/shlumbergera.jpg" height="419px"></div>
+                    <div class="worker-descs">
+                        <div class="worker-name">Шлюмбергера</div>
+                        <div class="worker-desc">Сотрудник месяца. Умелый врач, <br>
+                            практикующий своё дело более 10 лет. </div>
+                        <div class="worker-desc-list">
+                            <div class="worker-desc-list-item">Общий осмотр при заселении</div>
+                            <div class="worker-desc-list-item">Назначение эффективного лечения</div>
+                            <div class="worker-desc-list-item1">Профессиональная поддержка <br>и рекомендации на протяжении <br> всего пребывания в санатории </div>
+                        </div>
+                    </div>    
+                    
+                </div>
+
+                <div class="workers-item">
+                    <div class="worker-pic"><img src="pics/zamiokulkas.jpg" height="419px"></div>
+                    <div class="worker-descs">
+                        <div class="worker-name">Замиокулькас</div>
+                        <div class="worker-desc">Лучший фармацевт нашей области. <br> Получил премию Фармацевтики в 2023 году </div>
+                        <div class="worker-desc-list">
+                            <div class="worker-desc-list-item">Индивидуальный подбор ингридиентов </div>
+                            <div class="worker-desc-list-item">Учитывает Ваши вкусовые предпочтения</div>
+                            <div class="worker-desc-list-item1">Бесплатные консультации на протяжении <br>всего лечения</div>
+                        </div>
+                    </div>    
+                    
+                </div>
+            </div>
+            <div class="workers-buttons">
+                <div class="worker-button prev"><button><img src="pics/Arrow3.png"></button></div>
+                 <div class="worker-button next"><button><img src="pics/Arrow2.png"></button></div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback container" id="review">
+        <div class="feedback-head">
+            <div class="title">отзывы</div>
+            <div class="feedback-button"><button class="review">оставить отзыв</button></div>
+        </div>
+        <div class="feedback-items">
+            <div class="feedback-item">
+                <div class="feedback-name">Цветочек2020</div>
+                <div class="feedback-text">В процедурном домике меня буквально спасли <br> от тли! Прекрасный персонал, лечение<br> на высшем уровне.</div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-name">ФиалкаТравович30000</div>
+                <div class="feedback-text">Ускоренный курс правда помогает. Доверяю <br> профессионалам в «Расцвете».</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="feedback">
+        <div class="container">
+            <div class="footer-head">Запишись на консультацию!</div>
+            <div class="footer-main">
+                <div class="footer-feedback">
+                    <form>
+                        <div class="form-fields">
+                            <input type="text" placeholder="Имя" required>
+                            <input type="text" placeholder="Фамилия" required>
+                            <input type="text" placeholder="Телефон" required>
+                        </div>
+                        <div class="footer-feedback-button"><button>Отправить</button></div>
+                    </form>
+                </div>
+                
+                <div class="footer-address">
+                    <p>Цветочная улица, 18 <br> +7 (980) 188-22-12 <br> ras_cvet.ru</p>
+                </div>
+            </div>
+              <div class="footer-bottom">
+                <div class="footer-socials">
+                    <div class="social"><a href="https://t.me/pummp_k" target="_blank"><img src="pics/socials 1.png"></a></div>
+                    <div class="social"><a href="https://t.me/pummp_k" target="_blank"><img src="pics/socials1 1.png"></a></div>
+                    <div class="social"><a href="https://t.me/pummp_k" target="_blank"><img src="pics/socials3 1.png"></a></div>
+                </div>
+                <div class="footer-logo">
+                    <img src="pics/logo.svg">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="modal" id="modal-feedback">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div class="modal-feedback">
+                    Спасибо за запись! Данные отправлены. Позвоним Вам <br> в течении часа.
+                </div>
+
+                <div class="close-window">&#215;</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="modal-review">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div class="modal-feedback">
+                    <form>
+                        <div class="form-fields">
+                            <input type="text" placeholder="Имя" required>
+                            <input type="text" placeholder="Ваш отзыв" required>
+                        </div>
+                        <div class="modal-feedback-button"><button>Отправить</button>
+                    </form>
+                </div>
+
+                <div class="close-window">&#215;</div>
+            </div>
+        </div>
+    </div>
+
+<!-- Окно отзыва итог -->
+    <div class="modal" id="modal-review-success">
+        <div class="modal-fader">
+            <div class="modal-window">
+                <div class="modal-feedback">
+                    Спасибо за отзыв! Данные отправлены.
+                </div>
+
+                <div class="close-window">&#215;</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $(document).ready(function(){
+            $('.presentation-button a, .menu-item a, a.btn-up, .home-button a, .foto-button a, .prozilki-button a, .curs-button a').on("click", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+
+        $('.footer-feedback-button button').on("click", function (event) {
+            event.preventDefault();
+
+            let error = 0;
+            $('#feedback input').each(function (index, el) {
+                $(el).removeClass('error');
+                if ($(el).val() == '') {
+                    error = 1;
+                    $(el).addClass('error');
+                }
+            });
+
+            if (error == 0) {
+                $('#modal-feedback').addClass('active');
+            }
+        });
+
+        $('.modal-feedback-button button').on("click", function (event) {
+            event.preventDefault();
+
+            let error = 0;
+            $('#modal-review input').each(function (index, el) {
+                $(el).removeClass('error');
+                if ($(el).val() == '') {
+                    error = 1;
+                    $(el).addClass('error');
+                }
+            });
+
+            if (error == 0) {
+                $('#modal-review-success').addClass('active');
+            }
+        });
+
+        $('button.review').on("click", function (event) {
+            event.preventDefault();
+            $('#modal-review').addClass('active');
+        });
+
+        $('.close-window').on("click", function (event) {
+            event.preventDefault();
+            $('.modal').removeClass('active');
+        });
+
+            
+    </script>
+</body>
+</html>
